@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "5b40e74d2e1ee5716b204ff55875c2d457f4fd42a5238383f672c265f01ab98b"
+build_start_time: [1684262267, 561211109]
+build_end_time: [1684262270, 845120906]
+inputs:
+  "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/ContentView.swift": [1684194977, 148233413]
+  "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/DessertsApp.swift": [1684107950, 403492927]
+  "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Models/MealModel.swift": [1684166322, 529765367]
+  "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Models/RecipeModel.swift": [1684166322, 499194383]
+  "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Utility/Constants.swift": [1684194977, 244256973]
+  "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Utility/HTTPClient.swift": [1684262267, 269851207]

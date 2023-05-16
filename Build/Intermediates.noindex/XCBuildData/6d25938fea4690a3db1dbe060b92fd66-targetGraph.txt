@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Desserts in Desserts, no dependencies
+DessertsTests in Desserts, depends on:
+Desserts in Desserts (explicit)
