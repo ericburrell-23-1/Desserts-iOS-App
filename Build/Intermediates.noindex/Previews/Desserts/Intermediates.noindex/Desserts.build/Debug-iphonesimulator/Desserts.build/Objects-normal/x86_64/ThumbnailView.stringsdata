@@ -1,0 +1,12 @@
+{
+  "source": "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Views/Detail/ThumbnailView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Image via %@"
+      }
+    ]
+  },
+  "version": 1
+}

@@ -10,24 +10,28 @@ import SwiftUI
 struct MealListView: View {
     // MARK: - PROPERTIES
     @StateObject var mealList = mealListViewModel.shared
-    //@State var reloadNeeded: Bool = false
 
     // MARK: - BODY
     var body: some View {
         NavigationView {
             List {
                 ForEach(mealList.meals) { meal in
-                    MealItemView(meal: meal, thumbnail: mealList.thumbnails[meal.id])
+                    NavigationLink(destination: { RecipeDetailView(idMeal: meal.idMeal) },
+                                   label: {
+                        MealItemView(meal: meal, thumbnail: mealList.thumbnails[meal.id])
+                    }) //: LINK
                 } //: LOOP
             } //: LIST
             .task {
                 do {
-                    try await mealList.fetchMeals()
-                    try await mealList.downloadImages()
-                    //reloadNeeded = false
+                    if (mealList.meals.count == 0) {
+                        try await mealList.fetchMeals()
+                    }
+                    if (mealList.thumbnails.count != mealList.meals.count) {
+                        try await mealList.downloadImages()
+                    }
                 } catch {
                     print("Failed to fetch meals: \(error)")
-                    //reloadNeeded = true
                 }
             }
         } //: NAVIGATION

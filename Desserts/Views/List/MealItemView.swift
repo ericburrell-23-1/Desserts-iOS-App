@@ -25,8 +25,8 @@ struct MealItemView: View {
                     .frame(width: screenWidth * 0.25)
                 
                 Text(meal.strMeal)
-                    .font(.system(size: 30, weight: .bold, design: .monospaced))
-                    .shadow(color: .pink, radius: 5, x: 5, y: 5)
+                    .font(.system(size: 30, weight: .bold, design: .rounded))
+                    .shadow(color: CustomColor.lightPink, radius: 3, x: 3, y: 3)
                     .padding(.horizontal, 5)
                 
                 Spacer()
@@ -38,7 +38,7 @@ struct MealItemView: View {
     // MARK: - PREVIEW
 struct MealItemView_Previews: PreviewProvider {
     static var previews: some View {
-        MealItemView(meal: sampleMeal, thumbnail: UIImage(named: "sampleThumbnail"))
+        MealItemView(meal: PreviewItems.sampleMeal, thumbnail: UIImage(named: "sampleThumbnail"))
             .previewLayout(.sizeThatFits)
             .padding()
     }

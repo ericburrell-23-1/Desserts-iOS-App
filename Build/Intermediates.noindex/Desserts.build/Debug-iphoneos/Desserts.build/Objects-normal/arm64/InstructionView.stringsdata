@@ -1,0 +1,12 @@
+{
+  "source": "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Views/Detail/InstructionView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "How to make %@:"
+      }
+    ]
+  },
+  "version": 1
+}

@@ -9,14 +9,14 @@ import SwiftUI
 
 struct Recipe: Identifiable, Codable {
     let idMeal: String
-    let strMeal: String?
+    let strMeal: String
     let strDrinkAlternate: String?
-    let strCategory: String?
-    let strArea: String?
-    let strInstructions: String?
-    let strMealThumb: String?
-    let strTags: [String]?
-    let strYoutube: String?
+    let strCategory: String
+    let strArea: String
+    let strInstructions: String
+    let strMealThumb: String
+    let strTags: String?
+    let strYoutube: String
     let strIngredient1: String?
     let strIngredient2: String?
     let strIngredient3: String?
@@ -60,8 +60,8 @@ struct Recipe: Identifiable, Codable {
     let strSource: String?
     let strImageSource: String?
     let strCreativeCommonsConfirmed: String?
-    let dateModified: Date?
+    let dateModified: String?
     
     var id: String { return idMeal }
-    var mealThumbnailURL: URL? { return (strMealThumb != nil) ? URL(string: strMealThumb!) : nil }
 }
+

@@ -24,7 +24,7 @@ class HttpClient {
         guard (response as? HTTPURLResponse)?.statusCode == 200 else {
                    throw HttpError.badResponse()
                }
-        
+
         guard let object = try? JSONDecoder().decode(Dictionary<String, [T]>.self, from: data) else {
             throw HttpError.errorDecodingData()
         }
