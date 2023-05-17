@@ -1,0 +1,56 @@
+{
+  "_buildCommand2" : {
+    "command" : "preview"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "4439b175682c16ca475f78b66413ac067a94f14589b9f6d6c062107bd08067a7"
+    }
+  ],
+  "containerPath" : "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator16.2",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Products",
+      "derivedDataPath" : "/Users/ericburrell/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/ericburrell/Library/Developer/Xcode/DerivedData/Desserts-gllowrumylnosqbfyzjsxpkmxyic/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/ericburrell/Library/Developer/Xcode/DerivedData/Desserts-gllowrumylnosqbfyzjsxpkmxyic/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "DSTROOT" : "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Previews/Desserts/ReleaseProducts",
+          "ENABLE_PREVIEWS" : "YES",
+          "OBJROOT" : "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Previews/Desserts/Intermediates.noindex",
+          "SYMROOT" : "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Previews/Desserts/Products"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

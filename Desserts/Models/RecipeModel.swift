@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct recipe: Identifiable, Codable {
+struct Recipe: Identifiable, Codable {
     let idMeal: String
     let strMeal: String?
     let strDrinkAlternate: String?

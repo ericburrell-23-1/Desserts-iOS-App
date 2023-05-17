@@ -1,0 +1,14 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "50f4decdb4d73a8f1ca2c9db49dbe04e9bb1de3c3628ca562506a880849c353b"
+build_start_time: [1684272905, 27295112]
+build_end_time: [1684272911, 793932914]
+inputs:
+  "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/ContentView.swift": !private [1684272744, 89279174]
+  "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/DessertsApp.swift": !private [1684107950, 403492927]
+  "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Models/MealModel.swift": !private [1684266681, 958178997]
+  "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Models/RecipeModel.swift": !private [1684271081, 200728654]
+  "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Utility/Constants.swift": !private [1684271215, 964722633]
+  "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Utility/HTTPClient.swift": !private [1684262267, 269851207]
+  "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/ViewModels/MealListViewModel.swift": !private [1684271081, 148194313]
+  "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Views/List/MealItemView.swift": !private [1684272377, 281793832]
+  "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Views/MealListView.swift": !private [1684272534, 140271902]

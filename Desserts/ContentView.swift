@@ -10,22 +10,8 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-            Button(action: {
-                Task {
-                    do {
-                        let thing: [meal] = try await HttpClient().fetch(urlString: "http://abc.go.com/%")
-                        print(thing)
-                    } catch {
-                        print(error)
-                    }
-                }
-            }, label: { Text("Button") })
+            MealListView()
         }
-        .padding()
     }
 }
 

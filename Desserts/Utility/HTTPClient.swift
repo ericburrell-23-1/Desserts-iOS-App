@@ -5,15 +5,16 @@
 //  Created by Eric Burrell on 5/15/23.
 //
 
-import Foundation
+import SwiftUI
 
 class HttpClient {
-    let urlSession: URLSession
     
+    let urlSession: URLSession
     init(urlSession: URLSession = URLSession.shared) {
         self.urlSession = urlSession
     }
     
+    // MARK: - FETCH API DATA
     func fetch<T: Codable>(urlString: String) async throws -> [T] {
         guard let url = URL(string: urlString) else {
             throw HttpError.badURL()
@@ -29,5 +30,23 @@ class HttpClient {
         }
         
         return object.values.first ?? []
+    }
+    
+    // MARK: - DOWNLOAD IMAGE
+    func downloadImage(urlString: String) async throws -> UIImage {
+        guard let url = URL(string: urlString) else {
+            throw HttpError.badURL()
+        }
+        let (data, response) = try await urlSession.data(from: url)
+        
+        guard (response as? HTTPURLResponse)?.statusCode == 200 else {
+            throw HttpError.badResponse()
+        }
+        
+        guard let image = UIImage(data: data) else {
+            throw HttpError.errorDecodingImage()
+        }
+        
+        return image
     }
 }

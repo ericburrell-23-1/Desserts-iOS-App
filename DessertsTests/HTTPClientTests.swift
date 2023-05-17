@@ -66,7 +66,7 @@ final class HTTPClientTests: XCTestCase {
         prepareMockRequest()
         
         do {
-            let result: [meal] = try await httpClient.fetch(urlString: apiURLString)
+            let result: [Meal] = try await httpClient.fetch(urlString: apiURLString)
             XCTAssertEqual(result[0].strMeal, strMeal)
             XCTAssertEqual(result[0].strMealThumb, strMealThumb)
             XCTAssertEqual(result[0].idMeal, idMeal)
@@ -84,7 +84,7 @@ final class HTTPClientTests: XCTestCase {
         prepareMockRequest()
         
         do {
-            let _: [meal]  = try await httpClient.fetch(urlString: apiURLString)
+            let _: [Meal]  = try await httpClient.fetch(urlString: apiURLString)
             XCTFail("Should have thrown badURL error")
             self.expectation.fulfill()
         } catch {
@@ -99,7 +99,7 @@ final class HTTPClientTests: XCTestCase {
         prepareMockRequest()
         
         do {
-            let _: [meal]  = try await httpClient.fetch(urlString: apiURLString)
+            let _: [Meal]  = try await httpClient.fetch(urlString: apiURLString)
             XCTFail("Should have thrown badResponse error")
             self.expectation.fulfill()
         } catch {
@@ -114,7 +114,7 @@ final class HTTPClientTests: XCTestCase {
         prepareMockRequest()
         
         do {
-            let _: [meal]  = try await httpClient.fetch(urlString: apiURLString)
+            let _: [Meal]  = try await httpClient.fetch(urlString: apiURLString)
             XCTFail("Should have thrown errorDecodingData error")
             self.expectation.fulfill()
         } catch {
