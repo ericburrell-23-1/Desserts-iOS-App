@@ -32,7 +32,6 @@
 		BAFE6B602A11AA2E005DDE8D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFE6B5F2A11AA2E005DDE8D /* ContentView.swift */; };
 		BAFE6B622A11AA33005DDE8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFE6B612A11AA33005DDE8D /* Assets.xcassets */; };
 		BAFE6B652A11AA33005DDE8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFE6B642A11AA33005DDE8D /* Preview Assets.xcassets */; };
-		BAFE6B6F2A11AA33005DDE8D /* DessertsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFE6B6E2A11AA33005DDE8D /* DessertsTests.swift */; };
 		BAFE6B8C2A11B8E3005DDE8D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFE6B8B2A11B8E3005DDE8D /* Constants.swift */; };
 		BAFE6B8E2A11C012005DDE8D /* MealModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFE6B8D2A11C012005DDE8D /* MealModel.swift */; };
 		BAFE6B902A11C33A005DDE8D /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFE6B8F2A11C33A005DDE8D /* RecipeModel.swift */; };
@@ -76,7 +75,6 @@
 		BAFE6B612A11AA33005DDE8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAFE6B642A11AA33005DDE8D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BAFE6B6A2A11AA33005DDE8D /* DessertsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DessertsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BAFE6B6E2A11AA33005DDE8D /* DessertsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertsTests.swift; sourceTree = "<group>"; };
 		BAFE6B8B2A11B8E3005DDE8D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BAFE6B8D2A11C012005DDE8D /* MealModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealModel.swift; sourceTree = "<group>"; };
 		BAFE6B8F2A11C33A005DDE8D /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
@@ -150,7 +148,6 @@
 		BAFE6B6D2A11AA33005DDE8D /* DessertsTests */ = {
 			isa = PBXGroup;
 			children = (
-				BAFE6B6E2A11AA33005DDE8D /* DessertsTests.swift */,
 				BAFE6B932A12976D005DDE8D /* HTTPClientTests.swift */,
 				BAFE6B952A12FC83005DDE8D /* MockURLProtocol.swift */,
 			);
@@ -353,7 +350,6 @@
 				BA80953B2A15FF33009E0C81 /* IngredientsView.swift in Sources */,
 				BA80953F2A15FF43009E0C81 /* MealListViewModel.swift in Sources */,
 				BA8095402A15FF47009E0C81 /* RecipeViewModel.swift in Sources */,
-				BAFE6B6F2A11AA33005DDE8D /* DessertsTests.swift in Sources */,
 				BA8095362A15FF17009E0C81 /* RecipeDetailView.swift in Sources */,
 				BA8095372A15FF1C009E0C81 /* YoutubeVideoPlayer.swift in Sources */,
 				BA80953E2A15FF3D009E0C81 /* MealItemView.swift in Sources */,

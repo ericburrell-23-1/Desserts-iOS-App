@@ -40,7 +40,6 @@ struct RecipeDetailView: View {
                         CustomColor.lightGray
                     }
                 } else { ProgressView() }
-                
         } //: ZSTACK
         .ignoresSafeArea()
         .task {

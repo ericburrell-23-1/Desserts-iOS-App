@@ -9,26 +9,26 @@ import SwiftUI
 
 struct MealListView: View {
     // MARK: - PROPERTIES
-    @StateObject var mealList = mealListViewModel.shared
+    @StateObject var mealListViewModel = MealListViewModel.shared
 
     // MARK: - BODY
     var body: some View {
         NavigationView {
             List {
-                ForEach(mealList.meals) { meal in
+                ForEach(mealListViewModel.meals) { meal in
                     NavigationLink(destination: { RecipeDetailView(idMeal: meal.idMeal) },
                                    label: {
-                        MealItemView(meal: meal, thumbnail: mealList.thumbnails[meal.id])
+                        MealItemView(meal: meal, thumbnail: mealListViewModel.thumbnails[meal.id])
                     }) //: LINK
                 } //: LOOP
             } //: LIST
             .task {
                 do {
-                    if (mealList.meals.count == 0) {
-                        try await mealList.fetchMeals()
+                    if (mealListViewModel.meals.count == 0) {
+                        try await mealListViewModel.fetchMeals()
                     }
-                    if (mealList.thumbnails.count != mealList.meals.count) {
-                        try await mealList.downloadImages()
+                    if (mealListViewModel.thumbnails.count != mealListViewModel.meals.count) {
+                        try await mealListViewModel.downloadImages()
                     }
                 } catch {
                     print("Failed to fetch meals: \(error)")

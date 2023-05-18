@@ -1,0 +1,25 @@
+"/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Utility/HTTPClient.swift":
+  dependencies: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphoneos/DessertsTests.build/Objects-normal/arm64/HTTPClient.d"
+  swift-dependencies: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphoneos/DessertsTests.build/Objects-normal/arm64/HTTPClient.swiftdeps"
+  object: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphoneos/DessertsTests.build/Objects-normal/arm64/HTTPClient.o"
+  diagnostics: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphoneos/DessertsTests.build/Objects-normal/arm64/HTTPClient.dia"
+"/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/DessertsTests/MockURLProtocol.swift":
+  object: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphoneos/DessertsTests.build/Objects-normal/arm64/MockURLProtocol.o"
+  diagnostics: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphoneos/DessertsTests.build/Objects-normal/arm64/MockURLProtocol.dia"
+  dependencies: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphoneos/DessertsTests.build/Objects-normal/arm64/MockURLProtocol.d"
+  swift-dependencies: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphoneos/DessertsTests.build/Objects-normal/arm64/MockURLProtocol.swiftdeps"
+"/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/ContentView.swift":
+  diagnostics: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphoneos/DessertsTests.build/Objects-normal/arm64/ContentView.dia"
+  swift-dependencies: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphoneos/DessertsTests.build/Objects-normal/arm64/ContentView.swiftdeps"
+  dependencies: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphoneos/DessertsTests.build/Objects-normal/arm64/ContentView.d"
+  object: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphoneos/DessertsTests.build/Objects-normal/arm64/ContentView.o"
+"/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/DessertsTests/HTTPClientTests.swift":
+  swift-dependencies: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphoneos/DessertsTests.build/Objects-normal/arm64/HTTPClientTests.swiftdeps"
+  dependencies: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphoneos/DessertsTests.build/Objects-normal/arm64/HTTPClientTests.d"
+  diagnostics: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphoneos/DessertsTests.build/Objects-normal/arm64/HTTPClientTests.dia"
+  object: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphoneos/DessertsTests.build/Objects-normal/arm64/HTTPClientTests.o"
+"/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Views/Detail/SourceView.swift":
+  diagnostics: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphoneos/DessertsTests.build/Objects-normal/arm64/SourceView.dia"
+  dependencies: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphoneos/DessertsTests.build/Objects-normal/arm64/SourceView.d"
+  object: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphoneos/DessertsTests.build/Objects-normal/arm64/SourceView.o"
+  swift-dependencies: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphoneos/DessertsTests.build/Objects-normal/arm64/SourceView.swiftdeps"

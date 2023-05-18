@@ -31,9 +31,9 @@ struct IngredientsView: View {
                             Text(recipe.measurements[index])
                                 .foregroundColor(CustomColor.darkGray)
                         }
-                    }
-                }
-            }
+                    } //: HSTACK
+                } //: LOOP
+            } //: VSTACK
             .frame(width: screenWidth * 0.75)
             Spacer()
         }

@@ -251,21 +251,10 @@ using UInt = size_t;
 #endif
 
 #if defined(__OBJC__)
-@class NSInvocation;
-
-SWIFT_CLASS("_TtC13DessertsTests13DessertsTests")
-@interface DessertsTests : XCTestCase
-- (BOOL)setUpWithError:(NSError * _Nullable * _Nullable)error;
-- (BOOL)tearDownWithError:(NSError * _Nullable * _Nullable)error;
-- (BOOL)testExampleAndReturnError:(NSError * _Nullable * _Nullable)error;
-- (BOOL)testPerformanceExampleAndReturnError:(NSError * _Nullable * _Nullable)error;
-- (nonnull instancetype)initWithInvocation:(NSInvocation * _Nullable)invocation OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithSelector:(SEL _Nonnull)selector OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
 @class XCTestExpectation;
 @class NSString;
+@class NSData;
+@class NSInvocation;
 
 SWIFT_CLASS("_TtC13DessertsTests15HTTPClientTests")
 @interface HTTPClientTests : XCTestCase
@@ -275,13 +264,18 @@ SWIFT_CLASS("_TtC13DessertsTests15HTTPClientTests")
 @property (nonatomic, copy) NSString * _Nonnull strMealThumb;
 @property (nonatomic, copy) NSString * _Nonnull idMeal;
 @property (nonatomic) NSInteger httpStatusCode;
+@property (nonatomic, copy) NSData * _Nullable mockImageData;
 - (BOOL)setUpWithError:(NSError * _Nullable * _Nullable)error;
 - (BOOL)tearDownWithError:(NSError * _Nullable * _Nullable)error;
-- (void)prepareMockRequest;
+- (void)prepareMockRequestWithImageTest:(BOOL)imageTest;
 - (void)testSuccessfulResponseWithCompletionHandler:(void (^ _Nonnull)(void))completionHandler;
 - (void)testBadURLThrowsErrorWithCompletionHandler:(void (^ _Nonnull)(void))completionHandler;
 - (void)testBadResponseThrowsErrorWithCompletionHandler:(void (^ _Nonnull)(void))completionHandler;
 - (void)testCannotDecodeJSONThrowsErrorWithCompletionHandler:(void (^ _Nonnull)(void))completionHandler;
+- (void)testDownloadImageSuccessfulResponseWithCompletionHandler:(void (^ _Nonnull)(void))completionHandler;
+- (void)testDownloadImageBadURLThrowsErrorWithCompletionHandler:(void (^ _Nonnull)(void))completionHandler;
+- (void)testDownloadImageBadResponseThrowsErrorWithCompletionHandler:(void (^ _Nonnull)(void))completionHandler;
+- (void)testCannotDecodeImageThrowsErrorWithCompletionHandler:(void (^ _Nonnull)(void))completionHandler;
 - (nonnull instancetype)initWithInvocation:(NSInvocation * _Nullable)invocation OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithSelector:(SEL _Nonnull)selector OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;

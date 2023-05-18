@@ -7,13 +7,13 @@
 
 import SwiftUI
 
-class mealListViewModel: ObservableObject {
+class MealListViewModel: ObservableObject {
     @Published var meals = [Meal]()
     @Published var thumbnails = Dictionary<String, UIImage>()
     let httpClient = HttpClient()
     
     private init() { }
-    static let shared = mealListViewModel()
+    static let shared = MealListViewModel()
     
     // MARK: - FETCH ALL MEALS
     func fetchMeals() async throws {
