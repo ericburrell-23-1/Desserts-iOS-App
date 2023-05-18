@@ -4,6 +4,18 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<data>
+		xECkYeCCDjrpPSUc0ww7BEZ2fAo=
+		</data>
+		<key>AppIcon76x76@2x~ipad.png</key>
+		<data>
+		GIBK4TUqmirXenGrb77Jzh+TOPw=
+		</data>
+		<key>Assets.car</key>
+		<data>
+		FuL0Dwwg1IS4ZETfyVFHqnByKhI=
+		</data>
 		<key>Frameworks/XCTAutomationSupport.framework/Info.plist</key>
 		<data>
 		iwINMlRPx562/ipeZsG8y38Su10=
@@ -110,7 +122,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0/P0WPuzLlQ24Uk4IRSpftOuSv8=
+		g38QwPtSOdqySvvXpGmDQ8Gofbc=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -118,7 +130,7 @@
 		</data>
 		<key>PlugIns/DessertsTests.xctest/DessertsTests</key>
 		<data>
-		VXxtELnWUNrXBjmDQs1vufew/P0=
+		5Yqpmawp4hzMTegcbgidu9uieg8=
 		</data>
 		<key>PlugIns/DessertsTests.xctest/Info.plist</key>
 		<data>
@@ -131,6 +143,27 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lQ4tUsam7+yk8VmGmC0987OFx8Ouxy7xWSen7LviCTU=
+			</data>
+		</dict>
+		<key>AppIcon76x76@2x~ipad.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			i98hvwEWzZO9uO5opb/1pNEGZ48BDkIvuVl36HRWaxQ=
+			</data>
+		</dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rh+Jr10WkDxNEUblGM0s/JdHZg92QzAM4VIRJIWO5FI=
+			</data>
+		</dict>
 		<key>Frameworks/XCTAutomationSupport.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
@@ -317,7 +350,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			adBF9CUKpmko3LWRfIxIb25wrgS4UWsjf0ojRMC5BaE=
+			VhCo1caKY4AMXzatZ3SEzzb4nwFDXwWMeC0PX1yflto=
 			</data>
 		</dict>
 		<key>PlugIns/DessertsTests.xctest/Info.plist</key>

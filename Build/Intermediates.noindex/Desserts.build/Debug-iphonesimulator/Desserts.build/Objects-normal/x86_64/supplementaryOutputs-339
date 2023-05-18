@@ -1,0 +1,20 @@
+"/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Models/MealModel.swift":
+  object: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphonesimulator/Desserts.build/Objects-normal/x86_64/MealModel.o"
+  diagnostics: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphonesimulator/Desserts.build/Objects-normal/x86_64/MealModel.dia"
+  swift-dependencies: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphonesimulator/Desserts.build/Objects-normal/x86_64/MealModel.swiftdeps"
+  dependencies: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphonesimulator/Desserts.build/Objects-normal/x86_64/MealModel.d"
+"/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Utility/YoutubeVideoPlayer.swift":
+  dependencies: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphonesimulator/Desserts.build/Objects-normal/x86_64/YoutubeVideoPlayer.d"
+  swift-dependencies: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphonesimulator/Desserts.build/Objects-normal/x86_64/YoutubeVideoPlayer.swiftdeps"
+  object: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphonesimulator/Desserts.build/Objects-normal/x86_64/YoutubeVideoPlayer.o"
+  diagnostics: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphonesimulator/Desserts.build/Objects-normal/x86_64/YoutubeVideoPlayer.dia"
+"/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Views/List/MealItemView.swift":
+  dependencies: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphonesimulator/Desserts.build/Objects-normal/x86_64/MealItemView.d"
+  swift-dependencies: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphonesimulator/Desserts.build/Objects-normal/x86_64/MealItemView.swiftdeps"
+  object: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphonesimulator/Desserts.build/Objects-normal/x86_64/MealItemView.o"
+  diagnostics: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphonesimulator/Desserts.build/Objects-normal/x86_64/MealItemView.dia"
+"/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Views/RecipeDetailView.swift":
+  dependencies: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphonesimulator/Desserts.build/Objects-normal/x86_64/RecipeDetailView.d"
+  object: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphonesimulator/Desserts.build/Objects-normal/x86_64/RecipeDetailView.o"
+  swift-dependencies: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphonesimulator/Desserts.build/Objects-normal/x86_64/RecipeDetailView.swiftdeps"
+  diagnostics: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphonesimulator/Desserts.build/Objects-normal/x86_64/RecipeDetailView.dia"

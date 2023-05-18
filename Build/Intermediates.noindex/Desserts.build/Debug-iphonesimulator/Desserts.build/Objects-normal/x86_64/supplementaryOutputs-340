@@ -1,0 +1,20 @@
+"/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/ViewModels/RecipeViewModel.swift":
+  dependencies: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphonesimulator/Desserts.build/Objects-normal/x86_64/RecipeViewModel.d"
+  object: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphonesimulator/Desserts.build/Objects-normal/x86_64/RecipeViewModel.o"
+  diagnostics: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphonesimulator/Desserts.build/Objects-normal/x86_64/RecipeViewModel.dia"
+  swift-dependencies: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphonesimulator/Desserts.build/Objects-normal/x86_64/RecipeViewModel.swiftdeps"
+"/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Utility/Constants.swift":
+  object: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphonesimulator/Desserts.build/Objects-normal/x86_64/Constants.o"
+  dependencies: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphonesimulator/Desserts.build/Objects-normal/x86_64/Constants.d"
+  diagnostics: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphonesimulator/Desserts.build/Objects-normal/x86_64/Constants.dia"
+  swift-dependencies: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphonesimulator/Desserts.build/Objects-normal/x86_64/Constants.swiftdeps"
+"/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Views/Detail/InstructionView.swift":
+  diagnostics: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphonesimulator/Desserts.build/Objects-normal/x86_64/InstructionView.dia"
+  object: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphonesimulator/Desserts.build/Objects-normal/x86_64/InstructionView.o"
+  swift-dependencies: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphonesimulator/Desserts.build/Objects-normal/x86_64/InstructionView.swiftdeps"
+  dependencies: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphonesimulator/Desserts.build/Objects-normal/x86_64/InstructionView.d"
+"/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Views/Detail/TitleView.swift":
+  dependencies: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphonesimulator/Desserts.build/Objects-normal/x86_64/TitleView.d"
+  swift-dependencies: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphonesimulator/Desserts.build/Objects-normal/x86_64/TitleView.swiftdeps"
+  diagnostics: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphonesimulator/Desserts.build/Objects-normal/x86_64/TitleView.dia"
+  object: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Build/Intermediates.noindex/Desserts.build/Debug-iphonesimulator/Desserts.build/Objects-normal/x86_64/TitleView.o"

@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
 options: "e11896fc3f8218dba6bed71979ca3b12e93c5f9a46108cdc63b97e532e13b3b2"
-build_start_time: [1684402942, 995787143]
-build_end_time: [1684402949, 711431980]
+build_start_time: [1684413919, 865463972]
+build_end_time: [1684413952, 623965024]
 inputs:
   "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/ContentView.swift": [1684272744, 89279174]
   "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/DessertsApp.swift": [1684107950, 403492927]
@@ -18,6 +18,6 @@ inputs:
   "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Views/Detail/ThumbnailView.swift": [1684357274, 689074993]
   "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Views/Detail/TitleView.swift": [1684383924, 892556190]
   "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Views/Detail/YoutubeVideoView.swift": [1684391713, 447661638]
-  "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Views/List/MealItemView.swift": [1684383799, 105853557]
-  "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Views/MealListView.swift": [1684402541, 77941417]
-  "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Views/RecipeDetailView.swift": [1684402941, 240157127]
+  "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Views/List/MealItemView.swift": [1684413859, 108023166]
+  "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Views/MealListView.swift": [1684413645, 787679672]
+  "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Views/RecipeDetailView.swift": [1684403037, 457982540]

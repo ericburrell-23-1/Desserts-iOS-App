@@ -4,9 +4,9 @@ import SwiftUI
 
 extension MealListView_Previews {
     @_dynamicReplacement(for: previews) private static var __preview__previews: some View {
-        #sourceLocation(file: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Views/MealListView.swift", line: 44)
+        #sourceLocation(file: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Views/MealListView.swift", line: 45)
         MealListView()
-            .previewDevice(__designTimeString("#7172.[2].[0].property.[0].[0].modifier[0].arg[0].value", fallback: "iPhone 14"))
+            .previewDevice(__designTimeString("#2478.[2].[0].property.[0].[0].modifier[0].arg[0].value", fallback: "iPad (10th generation)"))
     
 #sourceLocation()
     }
@@ -17,25 +17,26 @@ extension MealListView {
         #sourceLocation(file: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Views/MealListView.swift", line: 16)
         NavigationView {
             List {
-                ForEach(mealList.meals) { meal in
+                ForEach(mealListViewModel.meals) { meal in
                     NavigationLink(destination: { RecipeDetailView(idMeal: meal.idMeal) },
                                    label: {
-                        MealItemView(meal: meal, thumbnail: mealList.thumbnails[meal.id])
+                        MealItemView(meal: meal, thumbnail: mealListViewModel.thumbnails[meal.id])
                     }) //: LINK
                 } //: LOOP
             } //: LIST
             .task {
                 do {
-                    if (mealList.meals.count == 0) {
-                        try await mealList.fetchMeals()
+                    if (mealListViewModel.meals.count == 0) {
+                        try await mealListViewModel.fetchMeals()
                     }
-                    if (mealList.thumbnails.count != mealList.meals.count) {
-                        try await mealList.downloadImages()
+                    if (mealListViewModel.thumbnails.count != mealListViewModel.meals.count) {
+                        try await mealListViewModel.downloadImages()
                     }
                 } catch {
                     print("Failed to fetch meals: \(error)")
                 }
             }
+            .navigationTitle(__designTimeString("#2478.[1].[1].property.[0].[0].arg[0].value.[0].modifier[1].arg[0].value", fallback: "Recipes"))
         } //: NAVIGATION
     
 #sourceLocation()

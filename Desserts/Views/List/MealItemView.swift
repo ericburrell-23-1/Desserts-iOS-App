@@ -22,7 +22,7 @@ struct MealItemView: View {
                     .resizable()
                     .scaledToFit()
                     .cornerRadius(12)
-                    .frame(width: screenWidth * 0.25)
+                    .frame(maxWidth: screenWidth * 0.25)
                 
                 Text(meal.strMeal)
                     .font(.system(size: 30, weight: .bold, design: .rounded))

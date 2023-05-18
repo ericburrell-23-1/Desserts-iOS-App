@@ -43,6 +43,6 @@ struct MealListView: View {
 struct MealListView_Previews: PreviewProvider {
     static var previews: some View {
         MealListView()
-            .previewDevice("iPhone 14")
+            .previewDevice("iPad (10th generation)")
     }
 }
