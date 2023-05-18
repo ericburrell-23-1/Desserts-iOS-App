@@ -19,7 +19,7 @@ struct InstructionView: View {
                     .font(.system(size: 24, weight: .bold, design: .rounded))
                     .underline()
                     .foregroundColor(.black)
-                    .shadow(color: CustomColor.lightPurple, radius: 5, x: 5, y: 5)
+                    .shadow(color: CustomColor.lightPurple.opacity(0.5), radius: 5, x: 5, y: 5)
                 Spacer()
             } //: HSTACK
             .padding(.vertical, 5)
@@ -28,6 +28,7 @@ struct InstructionView: View {
                 .foregroundColor(CustomColor.darkGray)
                 .multilineTextAlignment(.leading)
         } //: VSTACK
+        .padding(.horizontal)
     }
 }
 
@@ -36,6 +37,6 @@ struct InstructionView_Previews: PreviewProvider {
     static var previews: some View {
         InstructionView(recipe: PreviewItems.sampleRecipe)
             .previewLayout(.sizeThatFits)
-            .padding()
+            
     }
 }

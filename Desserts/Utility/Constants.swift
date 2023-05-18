@@ -49,5 +49,5 @@ struct PreviewItems {
            strMeasure6: "8 miles", strMeasure7: "", strMeasure8: "", strMeasure9: "", strMeasure10: "",
            strMeasure11: "", strMeasure12: "", strMeasure13: "", strMeasure14: "", strMeasure15: "",
            strMeasure16: "", strMeasure17: "", strMeasure18: "", strMeasure19: nil, strMeasure20: nil,
-           strSource: "Eminem's cookbook", strImageSource: "Handle the Heat with Tessa Arias", strCreativeCommonsConfirmed: nil, dateModified: "")
+           strSource: "https://www.amazon.com/Best-Sellers-Cookbooks,-Food-Wine/zgbs/books/6", strImageSource: "Handle the Heat with Tessa Arias", strCreativeCommonsConfirmed: nil, dateModified: "")
 }

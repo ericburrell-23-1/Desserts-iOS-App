@@ -63,5 +63,40 @@ struct Recipe: Identifiable, Codable {
     let dateModified: String?
     
     var id: String { return idMeal }
+    var youtubeVideoID: String? {
+        if let index = strYoutube.range(of: "=")?.upperBound {
+            return String(strYoutube.suffix(from: index))
+        } else {
+            return nil
+        }
+    }
+    var ingredients: [String] {
+        let recipeMirrorEnumerated = Mirror(reflecting: self).children.enumerated()
+        var ingredientList = [String]()
+        for (_, attribute) in recipeMirrorEnumerated {
+            if attribute.label!.contains("strIngredient") {
+                if let ingredient = attribute.value as! String? {
+                    if !ingredient.trimmingCharacters(in: .whitespaces).isEmpty {
+                        ingredientList.append(ingredient)
+                    }
+                }
+            }
+        }
+        return ingredientList
+    }
+    var measurements: [String] {
+        let recipeMirrorEnumerated = Mirror(reflecting: self).children.enumerated()
+        var measurementList = [String]()
+        for (_, attribute) in recipeMirrorEnumerated {
+            if attribute.label!.contains("strMeasure") {
+                if let measurement = attribute.value as! String? {
+                    if !measurement.trimmingCharacters(in: .whitespaces).isEmpty {
+                        measurementList.append(measurement)
+                    }
+                }
+            }
+        }
+        return measurementList
+    }
 }
 

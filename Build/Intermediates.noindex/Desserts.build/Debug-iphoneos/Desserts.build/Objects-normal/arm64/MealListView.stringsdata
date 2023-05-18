@@ -1,5 +1,12 @@
 {
   "source": "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Views/MealListView.swift",
-  "tables": {},
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Recipes"
+      }
+    ]
+  },
   "version": 1
 }

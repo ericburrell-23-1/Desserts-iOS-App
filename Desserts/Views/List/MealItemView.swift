@@ -26,7 +26,7 @@ struct MealItemView: View {
                 
                 Text(meal.strMeal)
                     .font(.system(size: 30, weight: .bold, design: .rounded))
-                    .shadow(color: CustomColor.lightPink, radius: 3, x: 3, y: 3)
+                    .shadow(color: CustomColor.lightPink.opacity(0.3), radius: 5, x: 3, y: 3)
                     .padding(.horizontal, 5)
                 
                 Spacer()

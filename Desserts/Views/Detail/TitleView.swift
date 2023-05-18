@@ -17,7 +17,7 @@ struct TitleView: View {
             Text(recipe.strMeal)
                 .font(.system(size: 36, weight: .bold, design: .rounded))
                 .foregroundColor(.black)
-                .shadow(color: CustomColor.lightPurple, radius: 8, x: 5, y: 5)
+                .shadow(color: CustomColor.lightPurple.opacity(0.5), radius: 8, x: 5, y: 5)
                 .padding(.horizontal)
                 .padding(.bottom)
             

@@ -34,6 +34,7 @@ struct MealListView: View {
                     print("Failed to fetch meals: \(error)")
                 }
             }
+            .navigationTitle("Recipes")
         } //: NAVIGATION
     }
 }

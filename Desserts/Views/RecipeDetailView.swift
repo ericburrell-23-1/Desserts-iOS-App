@@ -22,9 +22,16 @@ struct RecipeDetailView: View {
                     VStack {
                         ScrollView {
                             ThumbnailView(recipe: recipe)
+                            
                             TitleView(recipe: recipe)
+                            
+                            IngredientsView(recipe: recipe)
+                            
                             InstructionView(recipe: recipe)
-                                .padding(.horizontal)
+                            
+                            YoutubeVideoView(recipe: recipe)
+                            
+                            SourceView(recipe: recipe)
                         } //: SCROLL
                         .padding(.bottom, 30)
                     } //: VSTACK
