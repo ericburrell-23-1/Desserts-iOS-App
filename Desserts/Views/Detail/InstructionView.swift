@@ -15,7 +15,7 @@ struct InstructionView: View {
     var body: some View {
         VStack {
             HStack {
-                Text("How to make \(recipe.strMeal):")
+                Text("How to make \(recipe.mealName):")
                     .font(.system(size: 24, weight: .bold, design: .rounded))
                     .underline()
                     .foregroundColor(.black)
@@ -23,7 +23,7 @@ struct InstructionView: View {
                 Spacer()
             } //: HSTACK
             .padding(.vertical, 5)
-            Text(recipe.strInstructions)
+            Text(recipe.instructions)
                 .font(.system(size: 20, weight: .regular, design: .rounded))
                 .foregroundColor(CustomColor.darkGray)
                 .multilineTextAlignment(.leading)

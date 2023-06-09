@@ -15,7 +15,7 @@ struct SourceView: View {
     var body: some View {
         HStack {
             Spacer()
-            if let urlString = recipe.strSource, let url = URL(string: urlString) {
+            if let urlString = recipe.recipeSource, let url = URL(string: urlString) {
                 Link("Find full recipe here 😄", destination: url)
                     .font(.footnote)
                     .foregroundColor(.accentColor)

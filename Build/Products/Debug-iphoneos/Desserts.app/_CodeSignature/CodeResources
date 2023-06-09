@@ -16,6 +16,110 @@
 		<data>
 		18q/rygYn8rCPbEMznZ+I+kY1JM=
 		</data>
+		<key>Frameworks/XCTAutomationSupport.framework/Info.plist</key>
+		<data>
+		og17o37kxMw6tvc0entS9CKzFe0=
+		</data>
+		<key>Frameworks/XCTAutomationSupport.framework/XCTAutomationSupport</key>
+		<data>
+		LFbxiAHMK+oHoMiah2pE8uQWyEM=
+		</data>
+		<key>Frameworks/XCTAutomationSupport.framework/_CodeSignature/CodeResources</key>
+		<data>
+		fQxpEJTWxuPWPkW928I3W2e/oWI=
+		</data>
+		<key>Frameworks/XCTAutomationSupport.framework/version.plist</key>
+		<data>
+		TRQWisClmxSbU83KcsUEHi+hKoo=
+		</data>
+		<key>Frameworks/XCTest.framework/Info.plist</key>
+		<data>
+		FZGlAr6bqpr64vpM8BbQ5H0EY/Y=
+		</data>
+		<key>Frameworks/XCTest.framework/XCTest</key>
+		<data>
+		OIL5qkMMeTn6mi3LRJsmS5mPDT8=
+		</data>
+		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
+		<data>
+		0+SXpl5ILW3q7dzE0H256ZHnY4c=
+		</data>
+		<key>Frameworks/XCTest.framework/version.plist</key>
+		<data>
+		TRQWisClmxSbU83KcsUEHi+hKoo=
+		</data>
+		<key>Frameworks/XCTestCore.framework/Info.plist</key>
+		<data>
+		yaaCQPaN0LN3UEGBUOAyZ1c9nLk=
+		</data>
+		<key>Frameworks/XCTestCore.framework/XCTestCore</key>
+		<data>
+		94gY6CPZ+CF/TFeVxeXZZVKCyp0=
+		</data>
+		<key>Frameworks/XCTestCore.framework/_CodeSignature/CodeResources</key>
+		<data>
+		x1INDv10vj6YagzUBQs8OMoWiHQ=
+		</data>
+		<key>Frameworks/XCTestCore.framework/version.plist</key>
+		<data>
+		TRQWisClmxSbU83KcsUEHi+hKoo=
+		</data>
+		<key>Frameworks/XCTestSupport.framework/Info.plist</key>
+		<data>
+		DXECaIvrlkbaAIRvimeKOVTgrjQ=
+		</data>
+		<key>Frameworks/XCTestSupport.framework/XCTestSupport</key>
+		<data>
+		H//yKi0RImRSOZSrogVCR596Vac=
+		</data>
+		<key>Frameworks/XCTestSupport.framework/_CodeSignature/CodeResources</key>
+		<data>
+		495mZpC/RhSvZsAgP4iyt3k9bkU=
+		</data>
+		<key>Frameworks/XCTestSupport.framework/version.plist</key>
+		<data>
+		TRQWisClmxSbU83KcsUEHi+hKoo=
+		</data>
+		<key>Frameworks/XCUIAutomation.framework/Info.plist</key>
+		<data>
+		vdY0Ol/Czt41zTefQH+KebD8HII=
+		</data>
+		<key>Frameworks/XCUIAutomation.framework/XCUIAutomation</key>
+		<data>
+		Ld0AcgFRnHOWomANJM/HDdj3/lc=
+		</data>
+		<key>Frameworks/XCUIAutomation.framework/_CodeSignature/CodeResources</key>
+		<data>
+		2noDPexKp4usRYo3GcnIO/3AlM8=
+		</data>
+		<key>Frameworks/XCUIAutomation.framework/version.plist</key>
+		<data>
+		TRQWisClmxSbU83KcsUEHi+hKoo=
+		</data>
+		<key>Frameworks/XCUnit.framework/Info.plist</key>
+		<data>
+		xcnBqXfVpJiduq9yrd40Pu6opUw=
+		</data>
+		<key>Frameworks/XCUnit.framework/XCUnit</key>
+		<data>
+		hw6SP7LH81JG+rSOGguK9eba9mw=
+		</data>
+		<key>Frameworks/XCUnit.framework/_CodeSignature/CodeResources</key>
+		<data>
+		WqEAUa4ZYUQNUKSSWpjYnuLdGVg=
+		</data>
+		<key>Frameworks/XCUnit.framework/version.plist</key>
+		<data>
+		TRQWisClmxSbU83KcsUEHi+hKoo=
+		</data>
+		<key>Frameworks/libXCTestBundleInject.dylib</key>
+		<data>
+		xNZobbpPF9WVXa0UUQ3StVocF0k=
+		</data>
+		<key>Frameworks/libXCTestSwiftSupport.dylib</key>
+		<data>
+		TeuUUT2sSgmcsRiHZ/sAFth+TFs=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		YqsKLOrC2gUiFnLdiMMVLFw2K9E=
@@ -30,7 +134,7 @@
 		</data>
 		<key>PlugIns/DessertsTests.xctest.dSYM/Contents/Resources/DWARF/DessertsTests</key>
 		<data>
-		jcnXpTx3s6jSgEZeJIpm+zFsF94=
+		tlLkQsXE7gGc5TCYZQ9ErTWKiTU=
 		</data>
 		<key>PlugIns/DessertsTests.xctest.dSYM/Contents/Resources/Swift/aarch64/XCTest.swiftinterface</key>
 		<data>
@@ -38,7 +142,7 @@
 		</data>
 		<key>PlugIns/DessertsTests.xctest/DessertsTests</key>
 		<data>
-		+CxHpnNkR1knfLNy/3zTdcsrOow=
+		0cowcm3zC6RzbR0RFlfMYtHbn88=
 		</data>
 		<key>PlugIns/DessertsTests.xctest/Info.plist</key>
 		<data>
@@ -50,7 +154,7 @@
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		aAHKTROn+tki3NpG343DpioTleE=
+		40E+ZTy215Nrotx2knVYQMsXL+w=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -76,6 +180,188 @@
 			Lk1436VhGLyFAtIqlThDTGgTAyQTPUiTGFUlfbj7N+Y=
 			</data>
 		</dict>
+		<key>Frameworks/XCTAutomationSupport.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			otpS7EZ1JizaEsOjkZ84vF20Kb7Gl4fJWS1EMdPB0xA=
+			</data>
+		</dict>
+		<key>Frameworks/XCTAutomationSupport.framework/XCTAutomationSupport</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			P/ynaeq370Tq8E3m7zYY9UW4TicaNoqveEeiZsxKxlk=
+			</data>
+		</dict>
+		<key>Frameworks/XCTAutomationSupport.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oB3BWXj2somCuBsiSW0CJ+LgsyXTyh25NMKvCa20CaY=
+			</data>
+		</dict>
+		<key>Frameworks/XCTAutomationSupport.framework/version.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KOWRpllfJxkuA9iQHvKyX1ik02qjsTAi/qGhNn+Nz0U=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wnUMmvlblr9FvjVod85UCXG+ejRySd7MBptTEFcm5Tw=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/XCTest</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			L09WqyW38BRQjgLw9CRnpiFL/bpCRoCf1SCX5H4S1pQ=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YBzTI2AEbu/AV9Pzx9NswOR6okWZ/LvFTaUzXQLVr7E=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/version.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KOWRpllfJxkuA9iQHvKyX1ik02qjsTAi/qGhNn+Nz0U=
+			</data>
+		</dict>
+		<key>Frameworks/XCTestCore.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			P525rebkrPhTozM/xpOtCaykG18A91LX/jCpm1H6Ihk=
+			</data>
+		</dict>
+		<key>Frameworks/XCTestCore.framework/XCTestCore</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Tjf4xqJMKRCVcmh8aBo9Hr7WM4tXzILyDUcD443U/Hs=
+			</data>
+		</dict>
+		<key>Frameworks/XCTestCore.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JlcFZ+1DEHitGfPNKfv/l0zPqtDkA0cuU61c4gaHzks=
+			</data>
+		</dict>
+		<key>Frameworks/XCTestCore.framework/version.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KOWRpllfJxkuA9iQHvKyX1ik02qjsTAi/qGhNn+Nz0U=
+			</data>
+		</dict>
+		<key>Frameworks/XCTestSupport.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fvTST5kD7iOrd98wbUDtazs54KvEL5BFWx0YQ95+pbc=
+			</data>
+		</dict>
+		<key>Frameworks/XCTestSupport.framework/XCTestSupport</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BuvJEbMk23SuP2hBp/Z8ize5aND7dqeDCQUfjrwi52k=
+			</data>
+		</dict>
+		<key>Frameworks/XCTestSupport.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			grnmUm1lhxnM4RBoE+zVpZRrdhX/VfCxP00pApGLkzk=
+			</data>
+		</dict>
+		<key>Frameworks/XCTestSupport.framework/version.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KOWRpllfJxkuA9iQHvKyX1ik02qjsTAi/qGhNn+Nz0U=
+			</data>
+		</dict>
+		<key>Frameworks/XCUIAutomation.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NtWDXjFb7iHfPApd1J8l3ldsTeC6oCtItY1uVBBUKeU=
+			</data>
+		</dict>
+		<key>Frameworks/XCUIAutomation.framework/XCUIAutomation</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Ta+Xd1KQnjaL6uoaofvWWXDO2ps16Y3WOL3JN9+poA8=
+			</data>
+		</dict>
+		<key>Frameworks/XCUIAutomation.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MkF+ytjqyjgaZ2JHhPDyh6WqQvnx+gltXZgZbdkHnzk=
+			</data>
+		</dict>
+		<key>Frameworks/XCUIAutomation.framework/version.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KOWRpllfJxkuA9iQHvKyX1ik02qjsTAi/qGhNn+Nz0U=
+			</data>
+		</dict>
+		<key>Frameworks/XCUnit.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8nQZbXMJYvWdfSTjVhwwX9rk8UU88JC+PV4dTS1ikI8=
+			</data>
+		</dict>
+		<key>Frameworks/XCUnit.framework/XCUnit</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nXaW4BAUE7STFTkdIVzv2ENSIC/NRzI6guh4XuhVdOc=
+			</data>
+		</dict>
+		<key>Frameworks/XCUnit.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			o2mDqHan1LQhtkNmsuAcaFlXbJNjUvDYhoi8u4FLRG4=
+			</data>
+		</dict>
+		<key>Frameworks/XCUnit.framework/version.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KOWRpllfJxkuA9iQHvKyX1ik02qjsTAi/qGhNn+Nz0U=
+			</data>
+		</dict>
+		<key>Frameworks/libXCTestBundleInject.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GiIoEVz0iGQhHHn+ug6Yqfi5i2cCWaTNfNVobo75Ubg=
+			</data>
+		</dict>
+		<key>Frameworks/libXCTestSwiftSupport.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			V5Gr4xBUZHYY2fe2axYg3b/jXhc3XpbrpzJ4lDkzANo=
+			</data>
+		</dict>
 		<key>PlugIns/DessertsTests.xctest.dSYM/Contents/Info.plist</key>
 		<dict>
 			<key>hash2</key>
@@ -87,7 +373,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZFwqr5qjjnKDx3+aoNe5JqoPZf2UuEeoBdWK3DPJKvo=
+			Gl8701H+9DdUK9MlsyAT12ZCkzroqPL022MBNzVWasM=
 			</data>
 		</dict>
 		<key>PlugIns/DessertsTests.xctest.dSYM/Contents/Resources/Swift/aarch64/XCTest.swiftinterface</key>
@@ -101,7 +387,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QilVYBxlNADWCmP+39yhW+XM4iQfzCItZ7VFem8WfAM=
+			VGYTCzVcYfschOAOE4GUYBVnQGM/f/UP5Z0uNGRj0tQ=
 			</data>
 		</dict>
 		<key>PlugIns/DessertsTests.xctest/Info.plist</key>
@@ -122,7 +408,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PfNxfbiY2oEOSQW/NGlX6ug8hjEIXCZmlT3R5qBHNgc=
+			tEmZwWZx3GipPkvwv+fUycdwB9uuqBuL3fzCvA/aGXc=
 			</data>
 		</dict>
 	</dict>

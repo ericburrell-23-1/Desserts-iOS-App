@@ -12,9 +12,6 @@ class MealListViewModel: ObservableObject {
     @Published var thumbnails = Dictionary<String, UIImage>()
     let httpClient = HttpClient()
     
-    private init() { }
-    static let shared = MealListViewModel()
-    
     // MARK: - FETCH ALL MEALS
     func fetchMeals() async throws {
         let mealsResponse: [Meal] = try await httpClient.fetch(urlString: APIEndpoints.allDesserts)

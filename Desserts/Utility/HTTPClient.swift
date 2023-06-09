@@ -15,7 +15,7 @@ class HttpClient {
     }
     
     // MARK: - FETCH API DATA
-    func fetch<T: Codable>(urlString: String) async throws -> [T] {
+    func fetch<T: Decodable>(urlString: String) async throws -> [T] {
         guard let url = URL(string: urlString) else {
             throw HttpError.badURL()
         }
@@ -25,9 +25,7 @@ class HttpClient {
                    throw HttpError.badResponse()
                }
 
-        guard let object = try? JSONDecoder().decode(Dictionary<String, [T]>.self, from: data) else {
-            throw HttpError.errorDecodingData()
-        }
+        let object = try JSONDecoder().decode(Dictionary<String, [T]>.self, from: data)
         
         return object.values.first ?? []
     }

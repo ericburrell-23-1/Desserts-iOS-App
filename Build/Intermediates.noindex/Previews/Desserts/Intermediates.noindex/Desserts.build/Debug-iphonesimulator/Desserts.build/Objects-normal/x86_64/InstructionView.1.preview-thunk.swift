@@ -19,15 +19,15 @@ extension InstructionView {
         VStack {
             HStack {
                 Text("How to make \(recipe.strMeal):")
-                    .font(.system(size: __designTimeInteger("#7863.[1].[1].property.[0].[0].arg[0].value.[0].arg[0].value.[0].modifier[0].arg[0].value.arg[0].value", fallback: 24), weight: .bold, design: .rounded))
+                    .font(.system(size: __designTimeInteger("#1872.[1].[1].property.[0].[0].arg[0].value.[0].arg[0].value.[0].modifier[0].arg[0].value.arg[0].value", fallback: 24), weight: .bold, design: .rounded))
                     .underline()
                     .foregroundColor(.black)
-                    .shadow(color: CustomColor.lightPurple, radius: __designTimeInteger("#7863.[1].[1].property.[0].[0].arg[0].value.[0].arg[0].value.[0].modifier[3].arg[1].value", fallback: 5), x: __designTimeInteger("#7863.[1].[1].property.[0].[0].arg[0].value.[0].arg[0].value.[0].modifier[3].arg[2].value", fallback: 5), y: __designTimeInteger("#7863.[1].[1].property.[0].[0].arg[0].value.[0].arg[0].value.[0].modifier[3].arg[3].value", fallback: 5))
+                    .shadow(color: CustomColor.lightPurple.opacity(__designTimeFloat("#1872.[1].[1].property.[0].[0].arg[0].value.[0].arg[0].value.[0].modifier[3].arg[0].value.modifier[0].arg[0].value", fallback: 0.5)), radius: __designTimeInteger("#1872.[1].[1].property.[0].[0].arg[0].value.[0].arg[0].value.[0].modifier[3].arg[1].value", fallback: 5), x: __designTimeInteger("#1872.[1].[1].property.[0].[0].arg[0].value.[0].arg[0].value.[0].modifier[3].arg[2].value", fallback: 5), y: __designTimeInteger("#1872.[1].[1].property.[0].[0].arg[0].value.[0].arg[0].value.[0].modifier[3].arg[3].value", fallback: 5))
                 Spacer()
             } //: HSTACK
-            .padding(.vertical, __designTimeInteger("#7863.[1].[1].property.[0].[0].arg[0].value.[0].modifier[0].arg[1].value", fallback: 5))
+            .padding(.vertical, __designTimeInteger("#1872.[1].[1].property.[0].[0].arg[0].value.[0].modifier[0].arg[1].value", fallback: 5))
             Text(recipe.strInstructions)
-                .font(.system(size: __designTimeInteger("#7863.[1].[1].property.[0].[0].arg[0].value.[1].modifier[0].arg[0].value.arg[0].value", fallback: 20), weight: .regular, design: .rounded))
+                .font(.system(size: __designTimeInteger("#1872.[1].[1].property.[0].[0].arg[0].value.[1].modifier[0].arg[0].value.arg[0].value", fallback: 20), weight: .regular, design: .rounded))
                 .foregroundColor(CustomColor.darkGray)
                 .multilineTextAlignment(.leading)
         } //: VSTACK

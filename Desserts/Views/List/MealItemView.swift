@@ -16,9 +16,7 @@ struct MealItemView: View {
     var body: some View {
         ZStack {
             HStack {
-                ((thumbnail != nil) ?
-                Image(uiImage: thumbnail!) :
-                Image(systemName: "birthday.cake"))
+                (thumbnail.map(Image.init) ?? .init(systemName: "birthday.cake"))
                     .resizable()
                     .scaledToFit()
                     .cornerRadius(12)

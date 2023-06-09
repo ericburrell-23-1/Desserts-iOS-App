@@ -60,6 +60,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA09526D2A33D13900C22B58 /* libswiftWebKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftWebKit.tbd; path = usr/lib/swift/libswiftWebKit.tbd; sourceTree = SDKROOT; };
 		BA80952D2A15906A009E0C81 /* IngredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsView.swift; sourceTree = "<group>"; };
 		BA80952F2A15E218009E0C81 /* YoutubeVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeVideoView.swift; sourceTree = "<group>"; };
 		BA8095312A15E253009E0C81 /* YoutubeVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeVideoPlayer.swift; sourceTree = "<group>"; };
@@ -104,12 +105,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA09526C2A33D13800C22B58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA09526D2A33D13900C22B58 /* libswiftWebKit.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BAFE6B512A11AA2E005DDE8D = {
 			isa = PBXGroup;
 			children = (
 				BAFE6B5C2A11AA2E005DDE8D /* Desserts */,
 				BAFE6B6D2A11AA33005DDE8D /* DessertsTests */,
 				BAFE6B5B2A11AA2E005DDE8D /* Products */,
+				BA09526C2A33D13800C22B58 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};

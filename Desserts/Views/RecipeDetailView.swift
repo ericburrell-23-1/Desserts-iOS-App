@@ -10,15 +10,12 @@ import SwiftUI
 struct RecipeDetailView: View {
     // MARK: - PROPERTIES
     let idMeal: String
-    @StateObject var recipeViewModel = RecipeViewModel.shared
+    @StateObject var recipeViewModel = RecipeViewModel()
 
     // MARK: - BODY
     var body: some View {
         ZStack {
-                if (recipeViewModel.recipe != nil &&
-                    recipeViewModel.recipe.idMeal == idMeal)
-                {
-                    let recipe = recipeViewModel.recipe!
+            if let recipe = recipeViewModel.recipe {
                     VStack {
                         ScrollView {
                             ThumbnailView(recipe: recipe)
@@ -44,7 +41,7 @@ struct RecipeDetailView: View {
         .ignoresSafeArea()
         .task {
             do {
-                recipeViewModel.idMeal = idMeal
+                recipeViewModel.mealId = idMeal
                 try await recipeViewModel.fetchRecipe()
             } catch {
                 print("Failed to fetch recipe: \(error)")

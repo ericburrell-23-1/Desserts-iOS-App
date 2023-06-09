@@ -124,7 +124,7 @@ final class HTTPClientTests: XCTestCase {
             XCTFail("Should have thrown errorDecodingData error")
             self.expectation.fulfill()
         } catch {
-            XCTAssertEqual(error.localizedDescription, HttpError.errorDecodingData().localizedDescription)
+            XCTAssertEqual(error.localizedDescription, "The data couldn’t be read because it isn’t in the correct format.")
             self.expectation.fulfill()
         }
         wait(for: [expectation], timeout: 1.0)

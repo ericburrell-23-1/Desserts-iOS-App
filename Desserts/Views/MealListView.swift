@@ -9,7 +9,7 @@ import SwiftUI
 
 struct MealListView: View {
     // MARK: - PROPERTIES
-    @StateObject var mealListViewModel = MealListViewModel.shared
+    @StateObject var mealListViewModel = MealListViewModel()
 
     // MARK: - BODY
     var body: some View {

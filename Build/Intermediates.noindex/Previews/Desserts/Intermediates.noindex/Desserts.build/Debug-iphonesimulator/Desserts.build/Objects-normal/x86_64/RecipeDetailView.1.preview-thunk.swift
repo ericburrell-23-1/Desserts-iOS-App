@@ -4,9 +4,9 @@ import SwiftUI
 
 extension RecipeDetailView_Previews {
     @_dynamicReplacement(for: previews) private static var __preview__previews: some View {
-        #sourceLocation(file: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Views/RecipeDetailView.swift", line: 60)
-        RecipeDetailView(idMeal: __designTimeString("#6812.[2].[0].property.[0].[0].arg[0].value", fallback: "52893"))
-            .previewDevice(__designTimeString("#6812.[2].[0].property.[0].[0].modifier[0].arg[0].value", fallback: "iPhone 14"))
+        #sourceLocation(file: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Views/RecipeDetailView.swift", line: 59)
+        RecipeDetailView(idMeal: __designTimeString("#1790.[2].[0].property.[0].[0].arg[0].value", fallback: "52893"))
+            .previewDevice(__designTimeString("#1790.[2].[0].property.[0].[0].modifier[0].arg[0].value", fallback: "iPhone 14"))
     
 #sourceLocation()
     }
@@ -34,14 +34,13 @@ extension RecipeDetailView {
                             
                             SourceView(recipe: recipe)
                         } //: SCROLL
-                        .padding(.bottom, __designTimeInteger("#6812.[1].[2].property.[0].[0].arg[0].value.[0].[0].[1].arg[0].value.[0].modifier[0].arg[1].value", fallback: 30))
+                        .padding(.bottom, __designTimeInteger("#1790.[1].[2].property.[0].[0].arg[0].value.[0].[0].[1].arg[0].value.[0].modifier[0].arg[1].value", fallback: 30))
                     } //: VSTACK
                     .frame(width: screenWidth, height: screenHeight)
                     .background {
                         CustomColor.lightGray
                     }
                 } else { ProgressView() }
-                
         } //: ZSTACK
         .ignoresSafeArea()
         .task {

@@ -14,7 +14,7 @@ struct ThumbnailView: View {
     // MARK: - BODY
     var body: some View {
         VStack {
-            AsyncImage(url: URL(string:recipe.strMealThumb)) { image in
+            AsyncImage(url: URL(string: recipe.thumbnailURLString)) { image in
                 image
                     .resizable()
                     .scaledToFit()
@@ -23,10 +23,10 @@ struct ThumbnailView: View {
                     .foregroundColor(.black)
                     .frame(width: screenWidth, height: screenWidth)
             }
-            if recipe.strImageSource != nil {
+            if let imageSourceText = recipe.imageSource {
                 HStack {
                     Spacer()
-                    Text("Image via \(recipe.strImageSource!)")
+                    Text("Image via \(imageSourceText)")
                         .font(.footnote)
                         .scaleEffect(0.8, anchor: .topTrailing)
                         .foregroundColor(.gray)

@@ -18,9 +18,9 @@ extension TitleView {
         #sourceLocation(file: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Views/Detail/TitleView.swift", line: 16)
         HStack {
             Text(recipe.strMeal)
-                .font(.system(size: __designTimeInteger("#7449.[1].[1].property.[0].[0].arg[0].value.[0].modifier[0].arg[0].value.arg[0].value", fallback: 36), weight: .bold, design: .rounded))
+                .font(.system(size: __designTimeInteger("#1818.[1].[1].property.[0].[0].arg[0].value.[0].modifier[0].arg[0].value.arg[0].value", fallback: 36), weight: .bold, design: .rounded))
                 .foregroundColor(.black)
-                .shadow(color: CustomColor.lightPurple, radius: __designTimeInteger("#7449.[1].[1].property.[0].[0].arg[0].value.[0].modifier[2].arg[1].value", fallback: 8), x: __designTimeInteger("#7449.[1].[1].property.[0].[0].arg[0].value.[0].modifier[2].arg[2].value", fallback: 5), y: __designTimeInteger("#7449.[1].[1].property.[0].[0].arg[0].value.[0].modifier[2].arg[3].value", fallback: 5))
+                .shadow(color: CustomColor.lightPurple.opacity(__designTimeFloat("#1818.[1].[1].property.[0].[0].arg[0].value.[0].modifier[2].arg[0].value.modifier[0].arg[0].value", fallback: 0.5)), radius: __designTimeInteger("#1818.[1].[1].property.[0].[0].arg[0].value.[0].modifier[2].arg[1].value", fallback: 8), x: __designTimeInteger("#1818.[1].[1].property.[0].[0].arg[0].value.[0].modifier[2].arg[2].value", fallback: 5), y: __designTimeInteger("#1818.[1].[1].property.[0].[0].arg[0].value.[0].modifier[2].arg[3].value", fallback: 5))
                 .padding(.horizontal)
                 .padding(.bottom)
             

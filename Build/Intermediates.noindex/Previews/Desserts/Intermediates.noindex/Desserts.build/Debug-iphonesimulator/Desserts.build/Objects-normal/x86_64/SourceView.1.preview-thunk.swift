@@ -19,7 +19,7 @@ extension SourceView {
         HStack {
             Spacer()
             if let urlString = recipe.strSource, let url = URL(string: urlString) {
-                Link(__designTimeString("#25451.[1].[1].property.[0].[0].arg[0].value.[1].[0].[0].arg[0].value", fallback: "Find full recipe here 😄"), destination: url)
+                Link(__designTimeString("#2047.[1].[1].property.[0].[0].arg[0].value.[1].[0].[0].arg[0].value", fallback: "Find full recipe here 😄"), destination: url)
                     .font(.footnote)
                     .foregroundColor(.accentColor)
             }

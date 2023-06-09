@@ -26,12 +26,12 @@ extension ThumbnailView {
                     .foregroundColor(.black)
                     .frame(width: screenWidth, height: screenWidth)
             }
-            if recipe.strImageSource != nil {
+            if let imageSourceText = recipe.strImageSource {
                 HStack {
                     Spacer()
-                    Text("Image via \(recipe.strImageSource!)")
+                    Text("Image via \(imageSourceText)")
                         .font(.footnote)
-                        .scaleEffect(__designTimeFloat("#16453.[1].[1].property.[0].[0].arg[0].value.[1].[0].[0].arg[0].value.[1].modifier[1].arg[0].value", fallback: 0.8), anchor: .topTrailing)
+                        .scaleEffect(__designTimeFloat("#1833.[1].[1].property.[0].[0].arg[0].value.[1].[0].[0].arg[0].value.[1].modifier[1].arg[0].value", fallback: 0.8), anchor: .topTrailing)
                         .foregroundColor(.gray)
                 } //: HSTACK
             } //: CONDITIONAL

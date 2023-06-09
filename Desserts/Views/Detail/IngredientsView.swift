@@ -23,13 +23,15 @@ struct IngredientsView: View {
                     .padding(.vertical, 5)
                 
                 ForEach(recipe.ingredients.indices, id: \.self) { index in
-                    HStack {
-                        Text(recipe.ingredients[index])
-                            .foregroundColor(CustomColor.darkGray)
-                        Spacer()
-                        if (index < recipe.measurements.count) {
-                            Text(recipe.measurements[index])
+                    if !recipe.ingredients[index].isEmpty {
+                        HStack {
+                            Text(recipe.ingredients[index])
                                 .foregroundColor(CustomColor.darkGray)
+                            Spacer()
+                            if (index < recipe.measurements.count) {
+                                Text(recipe.measurements[index])
+                                    .foregroundColor(CustomColor.darkGray)
+                            }
                         }
                     } //: HSTACK
                 } //: LOOP

@@ -9,14 +9,11 @@ import Foundation
 
 class RecipeViewModel: ObservableObject {
     @Published var recipe: Recipe!
-    @Published var idMeal: String = ""
+    @Published var mealId: String = ""
     let httpClient = HttpClient()
     
-    private init() { }
-    static let shared = RecipeViewModel()
-    
     func fetchRecipe() async throws {
-        let urlString = APIEndpoints.recipeByID + idMeal
+        let urlString = APIEndpoints.recipeByID + mealId
         let recipesResponse: [Recipe] = try await httpClient.fetch(urlString: urlString)
         DispatchQueue.main.async {
             self.recipe = recipesResponse[0]

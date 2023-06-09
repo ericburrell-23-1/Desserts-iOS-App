@@ -14,7 +14,7 @@ struct YoutubeVideoView: View {
     // MARK: - BODY
     var body: some View {
         VStack {
-            if let youtubeVideoID = recipe.youtubeVideoID, let _ = URL(string: recipe.strYoutube) != nil {
+            if let youtubeVideoID = recipe.youtubeVideoID, let _ = URL(string: recipe.youtubeURLString) != nil {
                 Text("Visual learner? Here's a video to help you learn more!")
                     .font(.system(size: 18, weight: .semibold, design: .rounded))
                     .foregroundColor(.black)

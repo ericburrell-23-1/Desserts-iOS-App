@@ -14,7 +14,7 @@ struct TitleView: View {
     // MARK: - BODY
     var body: some View {
         HStack {
-            Text(recipe.strMeal)
+            Text(recipe.mealName)
                 .font(.system(size: 36, weight: .bold, design: .rounded))
                 .foregroundColor(.black)
                 .shadow(color: CustomColor.lightPurple.opacity(0.5), radius: 8, x: 5, y: 5)
