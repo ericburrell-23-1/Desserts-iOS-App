@@ -8,9 +8,13 @@
 import Foundation
 
 class RecipeViewModel: ObservableObject {
-    @Published var recipe: Recipe!
-    @Published var mealId: String = ""
+    @Published var recipe: Recipe?
+    let mealId: String
     let httpClient = HttpClient()
+    
+    init(mealId: String) {
+        self.mealId = mealId
+    }
     
     func fetchRecipe() async throws {
         let urlString = APIEndpoints.recipeByID + mealId

@@ -29,4 +29,14 @@ class MealListViewModel: ObservableObject {
             }
         }
     }
+    
+    // MARK: - INITIALIZE DATA
+    func initializeDataIfNeeded() async throws {
+        if (meals.isEmpty) {
+            try await fetchMeals()
+        }
+        if (thumbnails.count != meals.count) {
+            try await downloadImages()
+        }
+    }
 }

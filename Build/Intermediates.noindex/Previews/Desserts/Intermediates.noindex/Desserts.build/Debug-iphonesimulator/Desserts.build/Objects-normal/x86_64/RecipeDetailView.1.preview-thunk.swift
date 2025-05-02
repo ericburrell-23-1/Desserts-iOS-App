@@ -5,8 +5,8 @@ import SwiftUI
 extension RecipeDetailView_Previews {
     @_dynamicReplacement(for: previews) private static var __preview__previews: some View {
         #sourceLocation(file: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Views/RecipeDetailView.swift", line: 59)
-        RecipeDetailView(idMeal: __designTimeString("#1790.[2].[0].property.[0].[0].arg[0].value", fallback: "52893"))
-            .previewDevice(__designTimeString("#1790.[2].[0].property.[0].[0].modifier[0].arg[0].value", fallback: "iPhone 14"))
+        RecipeDetailView(idMeal: __designTimeString("#7846.[2].[0].property.[0].[0].arg[0].value", fallback: "52893"))
+            .previewDevice(__designTimeString("#7846.[2].[0].property.[0].[0].modifier[0].arg[0].value", fallback: "iPhone 14"))
     
 #sourceLocation()
     }
@@ -14,12 +14,9 @@ extension RecipeDetailView_Previews {
 
 extension RecipeDetailView {
     @_dynamicReplacement(for: body) private var __preview__body: some View {
-        #sourceLocation(file: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Views/RecipeDetailView.swift", line: 17)
+        #sourceLocation(file: "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Views/RecipeDetailView.swift", line: 21)
         ZStack {
-                if (recipeViewModel.recipe != nil &&
-                    recipeViewModel.recipe.idMeal == idMeal)
-                {
-                    let recipe = recipeViewModel.recipe!
+            if let recipe = recipeViewModel.recipe {
                     VStack {
                         ScrollView {
                             ThumbnailView(recipe: recipe)
@@ -34,7 +31,7 @@ extension RecipeDetailView {
                             
                             SourceView(recipe: recipe)
                         } //: SCROLL
-                        .padding(.bottom, __designTimeInteger("#1790.[1].[2].property.[0].[0].arg[0].value.[0].[0].[1].arg[0].value.[0].modifier[0].arg[1].value", fallback: 30))
+                        .padding(.bottom, __designTimeInteger("#7846.[1].[2].property.[0].[0].arg[0].value.[0].[0].[0].arg[0].value.[0].modifier[0].arg[1].value", fallback: 30))
                     } //: VSTACK
                     .frame(width: screenWidth, height: screenHeight)
                     .background {
@@ -45,7 +42,6 @@ extension RecipeDetailView {
         .ignoresSafeArea()
         .task {
             do {
-                recipeViewModel.idMeal = idMeal
                 try await recipeViewModel.fetchRecipe()
             } catch {
                 print("Failed to fetch recipe: \(error)")

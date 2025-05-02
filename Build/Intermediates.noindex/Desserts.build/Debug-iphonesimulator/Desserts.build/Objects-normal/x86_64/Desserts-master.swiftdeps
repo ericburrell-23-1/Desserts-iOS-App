@@ -1,18 +1,18 @@
 version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
 options: "23ebda027a1f63d3d14c569e424b7f83e19d2f97582b0fb2e684d2fedabab549"
-build_start_time: [1686077958, 324558019]
-build_end_time: [1686077961, 749713897]
+build_start_time: [1693581352, 655252933]
+build_end_time: [1693581368, 172573089]
 inputs:
   "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/ContentView.swift": [1684272744, 89279174]
   "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/DessertsApp.swift": [1684107950, 403492927]
   "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Models/MealModel.swift": [1684266681, 958178997]
-  "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Models/RecipeModel.swift": [1686077957, 942853450]
-  "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Utility/Constants.swift": [1685653525, 312027692]
+  "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Models/RecipeModel.swift": [1686348220, 426387310]
+  "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Utility/Constants.swift": [1686348374, 812719821]
   "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Utility/HTTPClient.swift": [1685653905, 110872983]
   "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Utility/YoutubeVideoPlayer.swift": [1684388956, 666862010]
   "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/ViewModels/MealListViewModel.swift": [1685043993, 265945434]
   "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/ViewModels/RecipeViewModel.swift": [1685126829, 287564277]
-  "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Views/Detail/IngredientsView.swift": [1684402541, 23710250]
+  "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Views/Detail/IngredientsView.swift": [1686347052, 676980018]
   "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Views/Detail/InstructionView.swift": [1685126938, 695173740]
   "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Views/Detail/SourceView.swift": [1685128577, 676131725]
   "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Views/Detail/ThumbnailView.swift": [1685128634, 853741168]

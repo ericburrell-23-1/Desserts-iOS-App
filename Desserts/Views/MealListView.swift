@@ -24,12 +24,7 @@ struct MealListView: View {
             } //: LIST
             .task {
                 do {
-                    if (mealListViewModel.meals.count == 0) {
-                        try await mealListViewModel.fetchMeals()
-                    }
-                    if (mealListViewModel.thumbnails.count != mealListViewModel.meals.count) {
-                        try await mealListViewModel.downloadImages()
-                    }
+                    try await mealListViewModel.initializeDataIfNeeded()
                 } catch {
                     print("Failed to fetch meals: \(error)")
                 }

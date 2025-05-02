@@ -9,8 +9,12 @@ import SwiftUI
 
 struct RecipeDetailView: View {
     // MARK: - PROPERTIES
-    let idMeal: String
-    @StateObject var recipeViewModel = RecipeViewModel()
+    @StateObject var recipeViewModel: RecipeViewModel
+    
+    // MARK: - INIT
+    init(idMeal: String) {
+        _recipeViewModel = StateObject(wrappedValue: RecipeViewModel(mealId: idMeal))
+    }
 
     // MARK: - BODY
     var body: some View {
@@ -41,7 +45,6 @@ struct RecipeDetailView: View {
         .ignoresSafeArea()
         .task {
             do {
-                recipeViewModel.mealId = idMeal
                 try await recipeViewModel.fetchRecipe()
             } catch {
                 print("Failed to fetch recipe: \(error)")
