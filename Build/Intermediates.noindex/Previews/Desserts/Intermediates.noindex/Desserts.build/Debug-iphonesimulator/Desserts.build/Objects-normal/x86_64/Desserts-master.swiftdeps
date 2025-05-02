@@ -1,16 +1,16 @@
 version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
 options: "7ceb92eb07bca811ad47771611aae9d43bba37a41385cf07167957f2022960c3"
-build_start_time: [1746148456, 737605094]
-build_end_time: [1746148458, 828677177]
+build_start_time: [1746162435, 683270931]
+build_end_time: [1746162437, 538887977]
 inputs:
   "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/ContentView.swift": [1684272744, 89279174]
   "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/DessertsApp.swift": [1684107950, 403492927]
   "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Models/MealModel.swift": [1684266681, 958178997]
-  "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Models/RecipeModel.swift": [1686348220, 426387310]
+  "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Models/RecipeModel.swift": [1746153533, 468260288]
   "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Utility/Constants.swift": [1686348374, 812719821]
   "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Utility/HTTPClient.swift": [1685653905, 110872983]
   "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Utility/YoutubeVideoPlayer.swift": [1684388956, 666862010]
-  "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/ViewModels/MealListViewModel.swift": [1746145885, 655290126]
+  "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/ViewModels/MealListViewModel.swift": [1746162435, 473103523]
   "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/ViewModels/RecipeViewModel.swift": [1746147630, 157404422]
   "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Views/Detail/IngredientsView.swift": [1686347052, 676980018]
   "/Users/ericburrell/Desktop/Programming/InterviewProjects/Fetch/Desserts/Desserts/Views/Detail/InstructionView.swift": [1685126938, 695173740]
